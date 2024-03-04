@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Motorola Solutions</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="locale" content="es_xl"> 
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- JQUERY -->
+  <script src="assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+  <!-- Tealium and Trustarc-->
+  <script src="https://consent.trustarc.com/notice?domain=motorolasolutions.com&c=teconsent&js=nj&noticeType=bb&gtm=1&text=true&language=es" crossorigin></script>
+    <script>
+    /** Add utag.js | This is self executing function.*/
+    (function (a, b, c, d) {
+      a = '//tags.tiqcdn.com/utag/motorola/main/prod/utag.js';
+      b = document;
+      c = 'script';
+      d = b.createElement(c);
+      d.src = a;
+      d.type = 'text/java' + c;
+      d.async = true;
+      a = b.getElementsByTagName(c)[0];
+      a.parentNode.insertBefore(d, a);
+    })();
+    $(function () {
+      activityID();
+      setInterval(passUTMparams, 1000);
+    });
+  </script>
+
+</head>
+
+<body>
+  <!-- Tealium -->
+  <script type="text/javascript">
+    const urlParams1 = new URLSearchParams(window.location.search);
+    const contactId = urlParams1.get("utm_contactId");
+    var elq_contact_id;
+    //Reading and assigning value for Contact ID
+    if (contactId != "" && contactId != "undefined" && contactId != null) {
+        elq_contact_id = contactId;
+    } else {
+        elq_contact_id = "No Value";
+    }
+  </script>
+  <script>
+    // <![CDATA[
+    var uri = document.location.pathname;
+    var utag_data = {
+        "page_name": document.title,
+        "page_uri": "/" + document.getElementsByTagName("meta")["locale"].content + "/webApp" + uri,
+        "locale": document.getElementsByTagName("meta")["locale"].content,
+        "page_type": "landing",
+        "campaign_code": document.getElementsByTagName("meta")["keywords"].content,
+        "elq_contact_id":elq_contact_id
+    }
+    // ]]>
+  </script>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo me-auto" data-uet = '{
+"link-type": "link",
+"link-label": "inicio",
+"link-url": "index.html",
+"link-place": "1",
+"restriction": "public",
+"cname": "image click",
+"page-area": "1"
+}'
+>
+        <img src="assets/img/motorola_solutions.png" alt="Motorola" class="img-fluid">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <!--
+          <li><a class="nav-link scrollto" href="#contact">Cámaras Corporales V500 y VB400</a></li>
+          <li><a class="nav-link scrollto" href="#contact">VideoManager</a></li>
+          -->
+          <li>
+            <a class="contactus" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-uet = '{
+"link-type": "button",
+"link-label": "Contáctenos",
+"link-url": "#contactModal",
+"link-place": "1",
+"restriction": "public",
+"cname": "Contact popup",
+"page-area": "12"
+}'>
+              Contáctenos
+            </a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Soluciones de video móvil para Seguridad Pública</h1>
+          <h2>Tome decisiones acertadas basadas en información real y completa</h2>
+          <p>
+            La presencia de tecnología de video móvil ha revolucionado la respuesta de los agentes y primeros respondientes ante emergencias. Al equipar a los profesionales con cámaras corporales, cámaras para vehículos o sistemas de reconocimiento de placas, estamos mejorando no solo su capacidad para proteger a la comunidad, sino también para adaptarse a los desafíos cambiantes de nuestro entorno. <strong>La inversión en esta tecnología no solo salva tiempo, sino vidas.</strong>
+          </p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-get-started" data-uet = '{
+"link-type": "button",
+"link-label": "Solicite más información",
+"link-url": "#contactModal",
+"link-place": "2",
+"restriction": "public",
+"cname": "hero",
+"page-area": "12"
+}'>
+              Solicite más información
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="cards" class="cards">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card text-center">
+              <img src="assets/img/icon-bodycamara.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Cámaras corporales</h5>
+                <p class="card-text">
+                  Brindan una perspectiva inigualable, capturando detalles cruciales en tiempo real. Esta herramienta no solo sirve como testigo fidedigno, sino que también potencia la rendición de cuentas y fortalece la transparencia en el accionar de los agentes. En momentos de crisis, cada segundo cuenta, y estas cámaras proporcionan un registro instantáneo que puede ser invaluable para la toma de decisiones fundamentales. 
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://mymarketlogic.net/martech/emktg/2024/motorola/camara-corporal-v500/" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://mymarketlogic.net/martech/emktg/2024/motorola/camara-corporal-v500/",
+"link-place": "2",
+"restriction": "public",
+"cname": "Cámaras corporales",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+            <div class="card text-center">
+              <img src="assets/img/icon-camaracar.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Cámaras para vehículos</h5>
+                <p class="card-text">
+                  Las modernas soluciones de video para vehículos son una valiosa fuente de información antes, durante y después de un incidente, aumentando potencialmente el índice de resolución de delitos. También permiten un proceso judicial más eficaz, ahorrando tiempo a los atareados equipos de investigación y reduciendo las fuentes de error humano. Los sistemas de video aumentan la transparencia y la confianza en los agentes de policía por parte de las comunidades, los jueces y otras partes interesadas. 
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://www.motorolasolutions.com/content/dam/msi/docs/white_paper_road_aware_in-car_video_latm.pdf" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://www.motorolasolutions.com/content/dam/msi/docs/white_paper_road_aware_in-car_video_latm.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "Cámaras para vehículos",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="1000">
+            <div class="card text-center">
+              <img src="assets/img/icon-placa.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Reconocimiento de placas</h5>
+                <p class="card-text">
+                  Los sistemas de reconocimiento de placas son una herramienta poderosa para la identificación y seguimiento de vehículos, agilizando la respuesta ante situaciones de alto riesgo. La capacidad de identificar rápidamente vehículos sospechosos o involucrados en incidentes es esencial para mantener la seguridad pública. 
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://www.motorolasolutions.com/content/dam/msi/docs/LPR-for-Law-Enforcement-Solution-Brief-ESP.pdf" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://www.motorolasolutions.com/content/dam/msi/docs/LPR-for-Law-Enforcement-Solution-Brief-ESP.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "Reconocimiento de placas",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+        <div class="testimonial-item">
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          <p>
+            En los últimos años ha habido <strong>un gran cambio en las actitudes públicas respecto de las cámaras de video corporales,</strong> pasando de una total negativa a llevarlas a una aceptación creciente por parte del público e incluso por parte de los sindicatos de seguridad pública alemanes. Esto se debe a la necesidad de seguridad del oficial de campo, así como de aumentar la transparencia.
+          </p>
+
+          <img src="assets/img/draheld.png" class="testimonial-img" alt="">
+          <h3>Dra. Barbara Held</h3>
+          <h4>Ex jefe del Departamento de Estrategia <br> 
+          Agencia Federal de Radio Digital de Seguridad Pública (BDBOS), Alemania</h4>
+
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= CTA Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title-inner pb-5">
+          <img src="assets/img/videomanager-front.png" class="img-fluid" alt="">
+          <h2>¿Preparado para experimentar las soluciones de video móvil en acción?</h2>
+          <p>
+            Nuestros expertos están a su disposición para explicarle las opciones disponibles
+          </p>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-learn-more" data-uet = '{
+"link-type": "button",
+"link-label": "Contáctenos",
+"link-url": "#contactModal",
+"link-place": "2",
+"restriction": "public",
+"cname": "cta",
+"page-area": "12"
+}'>
+            Contáctenos
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="logo">
+            <img src="assets/img/motorola_white.png" class="img-fluid" alt="Motorola Solutions">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="social-links">
+              <p>Únete a la conversación:</p>
+              <a href="https://www.facebook.com/MotorolaSolutionsLatAm" class="facebook" data-uet = '{
+"link-type": "link",
+"link-label": "Facebook",
+"link-url": "https://www.facebook.com/MotorolaSolutionsLatAm",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://twitter.com/MotorolaLatAm" class="twitter" data-uet = '{
+"link-type": "link",
+"link-label": "Twitter",
+"link-url": "https://twitter.com/MotorolaLatAm",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-twitter-x-line"></i>
+              </a>
+              <a href="https://www.youtube.com/user/videosdemotorola" class="youtube" data-uet = '{
+"link-type": "link",
+"link-label": "Youtube",
+"link-url": "https://www.youtube.com/user/videosdemotorola",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-youtube-fill"></i>
+              </a>
+              <a href="http://www.linkedin.com/company/motorola-solutions-america-latina-y-caribe?" class="linkedin" data-uet = '{
+"link-type": "link",
+"link-label": "Linkedin",
+"link-url": "http://www.linkedin.com/company/motorola-solutions-america-latina-y-caribe",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-linkedin-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/motorolasolutionslatam" class="instagram" data-uet = '{
+"link-type": "link",
+"link-label": "Instagram",
+"link-url": "https://www.instagram.com/motorolasolutionslatam",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-instagram-line"></i>
+              </a> 
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <p class="pt-2">
+            MOTOROLA, MOTO, MOTOROLA SOLUTIONS y el logotipo M estilizada son marcas comerciales o marcas comerciales registradas de Motorola
+          </p>
+          <p class="pt-0">
+            Trademark Holdings, LLC y se utilizan bajo licencia. Todas las demás marcas comerciales son propiedad de sus respectivos dueños.
+          </p>
+          <p class="pt-0">
+            © 2024 Motorola Solutions, Inc. Todos los derechos reservados.
+          </p>
+        
+          <div class="menu-bottom">
+            <ul>
+              <li>
+                <a href="https://www.motorolasolutions.com/es_xl/about/privacy-policy.html?_gl=1*tbhbs4*_ga*MTExOTA1MTgwMC4xNzA0ODI1MjM3*_ga_23THW5EV9N*MTcwNDgyNTIzNy4xLjEuMTcwNDgyNzQ3OS42MC4wLjA.#highlights" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Privacidad",
+"link-url": "https://www.motorolasolutions.com/es_xl/about/privacy-policy.html",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                  Políticas de privacidad
+                </a>
+              </li>
+              <li>
+                <a href="https://www.motorolasolutions.com/es_xl/preference-center-form.html?_gl=1*wtw8mx*_ga*OTY5NjA5ODA2LjE3MDcyNDM2MTY.*_ga_23THW5EV9N*MTcwNzI1MjczMC4zLjEuMTcwNzI1MzczNC41OC4wLjA." target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Preferencias de comunicación",
+"link-url": "https://www.motorolasolutions.com/es_xl/preference-center-form.html",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                  Preferencias de comunicación
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+
+  <!-- Modal Form -->
+  <!-- Contacto -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="Registro" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body contact">
+          <div class="container modal-form" data-aos="fade-up">
+            <div class="hero-form">
+              <h3 class="text-center">
+                Contáctenos
+              </h3>
+              <!-- INSERT IFRAME FORM DOWN HERE -->
+
+              <!-- END INSERT IFRAME -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Form -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
